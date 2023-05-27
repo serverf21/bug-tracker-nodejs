@@ -4,7 +4,8 @@
   "description": "A basic app for keeping tracks of the bugs in your projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "author": "Sarvagya Saxena",
   "license": "ISC",
