@@ -4,8 +4,7 @@
   "description": "A basic app for keeping tracks of the bugs in your projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Sarvagya Saxena",
   "license": "ISC",
@@ -14,5 +13,12 @@
     "express": "^4.18.2",
     "express-ejs-layouts": "^2.5.1",
     "mongoose": "^7.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.2",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
   }
 }
